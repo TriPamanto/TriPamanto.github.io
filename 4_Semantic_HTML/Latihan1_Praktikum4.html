@@ -4,6 +4,7 @@
     <title> CSS Layouting : Display </title>
   </head>
   <body>
+<!--<div>...</div>-->
     <div class="header">
       <h1>SELAMAT DATANG DI WEBKU</h1>
     </div>
@@ -12,12 +13,43 @@
       <a href=""> PROFILE </a>
       <a href=""> CONTACT </a>
     </div>
+
     <div class="main">
       <p>Bagian ini adalah isi Web</p>
       <br>
-      <img src="poster.png">
-    </div class="footer">
-    <p>copyright © 2023 WEB Programming UNIPMA</p>
-    <div></div>
+      <img src="unipma.png">
+      <div class="main">
+        <h2>Bagian ini adalah isi WEB</h2>
+        <br />
+
+        <!--<span>...</span>-->
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quidem
+          perferendis
+          <span>accusamus exercitationem, assumenda, vero iusto</span> laudantium
+          ipsam incidunt neque similique illum cupiditate in harum facere! Velit
+          eaque illum esse?
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>copyright © 2023 WEB Programming UNIPMA</p>
+      </div>
+
+      <!--Non-Semantic HTML-->
+    <div id="header"></div>
+    <div id="sidebar"></div>
+    <div id="content">
+      <div class="post"></div>
+    </div>
+    <div id="footer"></div>
+
+    <!--Semantic HTML-->
+    <header></header>
+    <nav></nav>
+    <section>
+      <article></article>
+    </section>
+    <footer></footer>
   </body>
 </html>
